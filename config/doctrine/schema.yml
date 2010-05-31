@@ -1,0 +1,9 @@
+options:
+  charset:  utf8
+  collate:  utf8_unicode_ci
+
+PostRating:
+  columns:
+    user_id:        { type: integer, primary:  true }
+    blog_post_id:   { type: integer, primary:  true }
+    rate:           { type: integer }
